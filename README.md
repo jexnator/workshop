@@ -235,7 +235,7 @@ Run:
 
 ---
 
-#### Key Learnings
+#### Task recap / key learnings
 
 **Terraform Workflow**:
   - Experienced the core commands: Write, Plan, Apply
