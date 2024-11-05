@@ -206,9 +206,6 @@ Run:
 **Purpose**:
   - Keeps track of resource mappings
   - Essential for planning and applying future changes
-**Insight**:
-  - Changes in state reflect real-world infrastructure status
-
 ---
 
 #### Step 14: Clean Up Resources
@@ -229,23 +226,23 @@ Run:
 
 #### Understanding `terraform destroy`
 **Functionality**:
-  - Reverses the actions performed by `terraform apply`
+- Reverses the actions performed by `terraform apply`
 **Best Practice**:
-  - Use cautiously; irreversible in production environments
+- Use cautiously; irreversible in production environments
 
 ---
 
 #### Task recap / key learnings
 
 **Terraform Workflow**:
-  - Experienced the core commands: Write, Plan, Apply
+- Experienced the core commands: Write, Plan, Apply
 **Infrastructure as Code**:
-  - Managed infrastructure declaratively using code
+- Managed infrastructure declaratively using code
 **Version Control with Git**:
-  - Initialized a Git repository to track changes
+- Initialized a Git repository to track changes
 **State Management**:
-  - Understood the role of Terraform state in tracking resources
+- Understood the role of Terraform state in tracking resources
 **Provider Usage**:
-  - Installed and utilized a custom provider
+- Installed and utilized a custom provider
 
 ---
