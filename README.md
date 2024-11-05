@@ -230,8 +230,6 @@ Run:
 #### Understanding `terraform destroy`
 **Functionality**:
   - Reverses the actions performed by `terraform apply`
-**Considerations**:
-  - Ensures a clean state and resource removal
 **Best Practice**:
   - Use cautiously; irreversible in production environments
 
