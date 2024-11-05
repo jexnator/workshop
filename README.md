@@ -1,4 +1,4 @@
-### Hands-on with Git and Terraform (Local)
+## Hands-on with Git and Terraform (Local)
 
 ---
 
@@ -52,13 +52,13 @@
 
 #### Step 5: Initialize Git Repository
 
-- In the terminal, run the command:
+In the terminal, run the command:
 
   ```bash
   git init
   ```
 
-- This initializes a new **Git repository** in your project folder
+This initializes a new **Git repository** in your project folder
 
 ---
 
@@ -72,7 +72,7 @@
 
 #### Step 7: Write Terraform Configuration
 
-- Add the following code to `main.tf`:
+Add the following code to `main.tf`:
 
   ```hcl
   terraform {
@@ -101,7 +101,7 @@
 
 #### Step 8: Install the Filesystem Provider
 
-- Run the following commands in the terminal:
+Run the following commands in the terminal:
 
   ```powershell
   # Download the provider
@@ -117,13 +117,11 @@
   Move-Item -Path "$env:USERPROFILE\Downloads\terraform-provider-filesystem" -Destination "$env:APPDATA\terraform.d\plugins\terraform-provider-filesystem" -Force
   ```
 
-- **Note**: These commands download and install the filesystem provider manually
-
 ---
 
 #### Step 9: Initialize Terraform
 
-- In the terminal, run:
+In the terminal, run:
 
   ```bash
   terraform init
@@ -139,7 +137,7 @@
 
 #### Step 10: Validate Terraform Configuration
 
-- Run:
+Run:
 
   ```bash
   terraform validate
@@ -152,7 +150,7 @@
 
 #### Step 11: Plan Terraform Execution
 
-- Run:
+Run:
 
   ```bash
   terraform plan
@@ -179,7 +177,7 @@
 
 #### Step 12: Apply Terraform Configuration
 
-- Run:
+Run:
 
   ```bash
   terraform apply
@@ -215,7 +213,7 @@
 
 #### Step 14: Clean Up Resources
 
-- Run:
+Run:
 
   ```bash
   terraform destroy
